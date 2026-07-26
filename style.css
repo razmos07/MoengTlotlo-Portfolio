@@ -1,0 +1,47 @@
+:root {
+    --primary-blue: #0056b3;
+    --light-blue: #eef4fa;
+    --dark-text: #333;
+    --white: #ffffff;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+body { color: var(--dark-text); line-height: 1.6; }
+
+header {
+    background: linear-gradient(135deg, var(--primary-blue), #003d82);
+    color: var(--white);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+nav { display: flex; justify-content: space-between; align-items: center; padding: 1rem 5%; background: rgba(0,0,0,0.2); }
+.logo { font-size: 1.5rem; font-weight: bold; }
+.nav-links { list-style: none; display: flex; gap: 1.5rem; }
+.nav-links a { color: var(--white); text-decoration: none; font-weight: 500; transition: 0.3s; }
+.nav-links a:hover { color: #ffcc00; }
+
+.hero { padding: 4rem 1rem; }
+.hero h1 { font-size: 3rem; margin-bottom: 0.5rem; }
+.hero h2 { font-size: 1.5rem; font-weight: 400; margin-bottom: 1rem; }
+.btn { display: inline-block; background: #ffcc00; color: #000; padding: 0.8rem 1.5rem; text-decoration: none; border-radius: 5px; margin-top: 1rem; font-weight: bold; }
+
+section { padding: 3rem 5%; }
+h2 { text-align: center; color: var(--primary-blue); margin-bottom: 2rem; font-size: 2rem; }
+
+.card, .skill-card { background: var(--light-blue); padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; border-left: 5px solid var(--primary-blue); }
+.subtitle { color: #666; font-style: italic; margin-bottom: 0.5rem; }
+
+.skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+.skill-card ul { list-style-position: inside; margin-top: 0.5rem; }
+
+footer { background: var(--primary-blue); color: var(--white); text-align: center; padding: 2rem 1rem; }
+footer p { margin: 0.5rem 0; }
+.copyright { margin-top: 1rem; font-size: 0.8rem; opacity: 0.8; }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-links { display: none; } /* Simplified for mobile */
+    .hero h1 { font-size: 2rem; }
+}
