@@ -10,27 +10,27 @@
 <body>
     <header>
         <nav>
-            <div class="logo">Moeng Tlotlo</div>
+            <div class="logo">MOENG TLOTLO</div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#interests">Interests</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        
         <div class="hero">
-            <!-- YOUR PROFILE PICTURE - MATCHING PDF SIZE -->
             <img src="profile.jpeg" alt="Moeng Tlotlo" class="profile-pic">
             <h1>MOENG TLOTLO</h1>
             <h2>IT STUDENT</h2>
             <p>I am a dedicated motivated IT student passionate about technology and research in the field. I enjoy exploring new innovations, understanding how technology can improve lives, and continuously learning new concepts.</p>
             
-            <!-- SOCIAL MEDIA LINKS IN HERO -->
             <div class="social-links">
-                <a href="https://github.com/razmos07" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                <a href="https://linkedin.com/in/moengtlotlo" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                <a href="mailto:Moengtlotlo6@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/razmos07" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/moengtlotlo" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:Moengtlotlo6@gmail.com"><i class="fas fa-envelope"></i></a>
             </div>
             
             <a href="#contact" class="btn">Get in Touch</a>
@@ -38,31 +38,36 @@
     </header>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>I am a dedicated motivated IT student passionate about technology and research in the field. I enjoy exploring new innovations, understanding how technology can improve lives, and continuously learning new concepts.</p>
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a dedicated motivated IT student passionate about technology and research in the field. I enjoy exploring new innovations, understanding how technology can improve lives, and continuously learning new concepts.</p>
+        </div>
     </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <div class="card">
-            <h3>Bachelor of Information Technology</h3>
-            <p class="subtitle">North West University (Vaal), South Africa | 2023 – Present</p>
-            <p><strong>Expected Graduation:</strong> 2027 | <strong>Academic Standing:</strong> Good Academic Standing</p>
-            <p><strong>Relevant Modules:</strong></p>
-            <ul style="margin-left: 20px; margin-top: 10px;">
-                <li><strong>System Analysis and Design</strong> - Designed database system and application architectures</li>
-                <li><strong>Database Systems</strong> - Developed SQL databases and data management solutions</li>
-                <li><strong>Web Development</strong> - Created responsive web applications using a modern framework</li>
-                <li><strong>IT Research Methods</strong> - Conducted academic research and data analysis</li>
-                <li><strong>Computer Networks</strong> - Setting up the new office network in a new building</li>
-            </ul>
+    <section id="education" class="light-bg">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="info-box">
+                <h3>Bachelor of Information Technology</h3>
+                <p class="subtitle">North West University (Vaal), South Africa | 2023 – Present</p>
+                <p><strong>Expected Graduation:</strong> 2027 | <strong>Academic Standing:</strong> Good Academic Standing</p>
+                <p><strong>Relevant Modules:</strong></p>
+                <ul>
+                    <li><strong>System Analysis and Design:</strong> Designed database system and application architectures</li>
+                    <li><strong>Database Systems:</strong> Developed SQL databases and data management solutions</li>
+                    <li><strong>Web Development:</strong> Created responsive web applications using a modern framework</li>
+                    <li><strong>IT Research Methods:</strong> Conducted academic research and data analysis</li>
+                    <li><strong>Computer Networks:</strong> Setting up the new office network in a new building</li>
+                </ul>
+            </div>
         </div>
     </section>
 
     <section id="skills">
-        <h2>Core Competencies</h2>
-        <div class="skills-grid">
-            <div class="skill-card">
+        <div class="container">
+            <h2>Core Competencies</h2>
+            
+            <div class="info-box">
                 <h3>Technical Skills</h3>
                 <ul>
                     <li><strong>Programming:</strong> C#, Java, Python, C++</li>
@@ -72,109 +77,128 @@
                     <li><strong>Web Technologies:</strong> Responsive Design, Web Application Development, Microsoft Visual Studio</li>
                 </ul>
             </div>
-            <div class="skill-card">
+
+            <div class="info-box">
                 <h3>Professional Skills</h3>
                 <ul>
-                    <li><strong>Research and Information Gathering</strong> - Conducted comprehensive IT research projects</li>
-                    <li><strong>Teamwork and Collaboration</strong> - Successfully completed multiple group projects</li>
-                    <li><strong>Time Management</strong> - Balanced multiple projects and deadlines effectively</li>
-                    <li><strong>Adaptability</strong> - Quick learner of new technologies and concepts</li>
+                    <li><strong>Research and Information Gathering:</strong> Conducted comprehensive IT research projects</li>
+                    <li><strong>Teamwork and Collaboration:</strong> Successfully completed multiple group projects</li>
+                    <li><strong>Time Management:</strong> Balanced multiple projects and deadlines effectively</li>
+                    <li><strong>Adaptability:</strong> Quick learner of new technologies and concepts</li>
                 </ul>
             </div>
-        </div>
-        
-        <h3 style="text-align:center; margin-top: 2rem; color: var(--primary-blue);">Languages</h3>
-        <div class="card" style="text-align:center;">
-            <p><strong>English</strong> | <strong>Setswana</strong> | <strong>Zulu (Basic)</strong></p>
+
+            <div class="info-box">
+                <h3>Languages</h3>
+                <p><strong>English</strong> | <strong>Setswana</strong> | <strong>Zulu (Basic)</strong></p>
+            </div>
         </div>
     </section>
 
-    <section id="projects">
-        <h2>Projects/Academics</h2>
-        <div class="card">
-            <h3>Research Projects (University Coursework)</h3>
-            <ul>
-                <li>Conducted research on the role of IT in Modern business innovation</li>
-                <li>Conducted research on various AI technologies and their impact on modern life</li>
-            </ul>
-        </div>
-        <div class="card">
-            <h3>Web Application (Class Project)</h3>
-            <ul>
-                <li>Built a web task manager using C# and Java as part of the university team projects</li>
-                <li>Applied knowledge of System design and user interface development</li>
-            </ul>
+    <section id="projects" class="light-bg">
+        <div class="container">
+            <h2>Projects/Academics</h2>
+            
+            <div class="info-box">
+                <h3>Research Projects (University Coursework)</h3>
+                <ul>
+                    <li>Conducted research on the role of IT in Modern business innovation</li>
+                    <li>Conducted research on various AI technologies and their impact on modern life</li>
+                </ul>
+            </div>
+
+            <div class="info-box">
+                <h3>Web Application (Class Project)</h3>
+                <ul>
+                    <li>Built a web task manager using C# and Java as part of the university team projects</li>
+                    <li>Applied knowledge of System design and user interface development</li>
+                </ul>
+            </div>
         </div>
     </section>
 
     <section id="achievements">
-        <h2>Achievements & Certificates</h2>
-        <div class="card">
-            <h3>Academic Excellence</h3>
-            <ul>
-                <li>Successfully completed several Projects with excellent feedback</li>
-                <li>Achieved good grades in technical modules</li>
-            </ul>
-        </div>
-        <div class="card">
-            <h3>Teamwork Recognition</h3>
-            <ul>
-                <li>Selected as team leader for multiple class assignments</li>
-            </ul>
-        </div>
-        <div class="card">
-            <h3>Technical Proficiency</h3>
-            <ul>
-                <li>Developed functional web application using web development tools</li>
-            </ul>
-        </div>
-        <div class="card">
-            <h3>Certificates</h3>
-            <ul>
-                <li>Online Courses certificates</li>
-            </ul>
+        <div class="container">
+            <h2>Achievements & Certificates</h2>
+            
+            <div class="info-box">
+                <h3>Academic Excellence</h3>
+                <ul>
+                    <li>Successfully completed several Projects with excellent feedback</li>
+                    <li>Achieved good grades in technical modules</li>
+                </ul>
+            </div>
+
+            <div class="info-box">
+                <h3>Teamwork Recognition</h3>
+                <ul>
+                    <li>Selected as team leader for multiple class assignments</li>
+                </ul>
+            </div>
+
+            <div class="info-box">
+                <h3>Technical Proficiency</h3>
+                <ul>
+                    <li>Developed functional web application using web development tools</li>
+                </ul>
+            </div>
+
+            <div class="info-box">
+                <h3>Certificates</h3>
+                <ul>
+                    <li>Online Courses certificates</li>
+                </ul>
+            </div>
         </div>
     </section>
 
-    <section id="interests">
-        <h2>Interests</h2>
-        <div class="card" style="text-align:center;">
-            <p><i class="fas fa-laptop-code"></i> IT Research & Innovation</p>
-            <p><i class="fas fa-futbol"></i> Football/Soccer & Video Games</p>
-            <p><i class="fas fa-music"></i> Podcasts and Music</p>
-            <p><i class="fas fa-newspaper"></i> Reading football news and articles</p>
+    <section id="interests" class="light-bg">
+        <div class="container">
+            <h2>Interests</h2>
+            <div class="info-box">
+                <ul class="interests-list">
+                    <li><i class="fas fa-laptop-code"></i> IT Research & Innovation</li>
+                    <li><i class="fas fa-futbol"></i> Football/Soccer & Video Games</li>
+                    <li><i class="fas fa-music"></i> Podcasts and Music</li>
+                    <li><i class="fas fa-newspaper"></i> Reading football news and articles</li>
+                    <li><i class="fas fa-bullhorn"></i> Digital Marketing & Video Editing</li>
+                </ul>
+            </div>
         </div>
     </section>
 
     <section id="career">
-        <h2>Career Objectives</h2>
-        <div class="card">
-            <p>Seeking to leverage academic knowledge and technical skills in a professional environment. Committed to continuous learning and contributing to innovative technology solutions while developing expertise in system analysis and IT Project management.</p>
+        <div class="container">
+            <h2>Career Objectives</h2>
+            <div class="info-box">
+                <p>Seeking to leverage academic knowledge and technical skills in a professional environment. Committed to continuous learning and contributing to innovative technology solutions while developing expertise in system analysis and IT Project management.</p>
+            </div>
         </div>
     </section>
 
     <footer id="contact">
-        <h2>Contact Information</h2>
-        <p><i class="fas fa-phone"></i> 060-389-3852</p>
-        <p><i class="fas fa-envelope"></i> Moengtlotlo6@gmail.com</p>
-        <p><i class="fas fa-map-marker-alt"></i> Springs, 1559 Bakerton</p>
-        
-        <!-- SOCIAL MEDIA HANDLES -->
-        <div style="margin-top: 1.5rem;">
-            <p><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/razmos_07?igsh=MWtwdGh6M2VxOGYwdQ==" target="_blank" style="color: var(--white); text-decoration: none;">@razmos_07</a></p>
-            <p><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/tlotlo.moeng.71" target="_blank" style="color: var(--white); text-decoration: none;">Moeng Tlotlo</a></p>
+        <div class="container">
+            <h2>Contact Information</h2>
+            <p><i class="fas fa-phone"></i> 060-389-3852</p>
+            <p><i class="fas fa-envelope"></i> Moengtlotlo6@gmail.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Springs, 1559 Bakerton</p>
+            
+            <div class="social-media">
+                <p><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/razmos_07?igsh=MWtwdGh6M2VxOGYwdQ==" target="_blank">@razmos_07</a></p>
+                <p><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/tlotlo.moeng.71" target="_blank">Moeng Tlotlo</a></p>
+            </div>
+            
+            <div class="references">
+                <h3>References</h3>
+                <p>North-West University</p>
+                <p>Vanderbijlpark Campus</p>
+                <p>Hendrik Van Eck Blvd, Vanderbijlpark, 1900</p>
+                <p>Tel: 0860 169 698</p>
+                <p>Switchboard: (+27 16) 910 3661</p>
+            </div>
+            
+            <p class="copyright">&copy; 2026 Moeng Tlotlo. All Rights Reserved.</p>
         </div>
-        
-        <div style="margin-top: 2rem; font-size: 0.9rem; opacity: 0.8; border-top: 1px solid rgba(255,255,255,0.3); padding-top: 1rem;">
-            <h3>References</h3>
-            <p>North-West University</p>
-            <p>Vanderbijlpark Campus</p>
-            <p>Hendrik Van Eck Blvd, Vanderbijlpark, 1900</p>
-            <p>Tel: 0860 169 698</p>
-            <p>Switchboard: (+27 16) 910 3661</p>
-        </div>
-        
-        <p class="copyright">&copy; 2026 Moeng Tlotlo. All Rights Reserved.</p>
     </footer>
 
     <script src="script.js"></script>
