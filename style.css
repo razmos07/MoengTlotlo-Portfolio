@@ -22,26 +22,69 @@ nav { display: flex; justify-content: space-between; align-items: center; paddin
 .nav-links a { color: var(--white); text-decoration: none; font-weight: 500; transition: 0.3s; }
 .nav-links a:hover { color: #ffcc00; }
 
-.hero { padding: 4rem 1rem; }
-.hero h1 { font-size: 3rem; margin-bottom: 0.5rem; }
-.hero h2 { font-size: 1.5rem; font-weight: 400; margin-bottom: 1rem; }
-.btn { display: inline-block; background: #ffcc00; color: #000; padding: 0.8rem 1.5rem; text-decoration: none; border-radius: 5px; margin-top: 1rem; font-weight: bold; }
+.hero { padding: 2rem 1rem; }
+
+/* Profile Picture - MATCHING PDF CV SIZE */
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffcc00;
+    margin-bottom: 1rem;
+}
+
+.hero h1 { 
+    font-size: 2.2rem; 
+    margin-bottom: 0.3rem; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.hero h2 { 
+    font-size: 1.1rem; 
+    font-weight: 500; 
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+/* Social Links */
+.social-links { margin: 1.5rem 0; }
+.social-links a {
+    color: var(--white);
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+.social-links a:hover { color: #ffcc00; transform: scale(1.1); }
+
+.btn { display: inline-block; background: #ffcc00; color: #000; padding: 0.8rem 1.5rem; text-decoration: none; border-radius: 5px; margin-top: 1rem; font-weight: bold; transition: 0.3s; }
+.btn:hover { background: #ffd633; transform: translateY(-2px); }
 
 section { padding: 3rem 5%; }
 h2 { text-align: center; color: var(--primary-blue); margin-bottom: 2rem; font-size: 2rem; }
 
-.card, .skill-card { background: var(--light-blue); padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; border-left: 5px solid var(--primary-blue); }
+.card { background: var(--light-blue); padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; border-left: 5px solid var(--primary-blue); }
 .subtitle { color: #666; font-style: italic; margin-bottom: 0.5rem; }
 
 .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+.skill-card { background: var(--light-blue); padding: 1.5rem; border-radius: 8px; }
 .skill-card ul { list-style-position: inside; margin-top: 0.5rem; }
+.skill-card li { margin-bottom: 0.5rem; }
 
-footer { background: var(--primary-blue); color: var(--white); text-align: center; padding: 2rem 1rem; }
+#interests .card p { margin: 0.8rem 0; }
+#interests i { margin-right: 10px; color: var(--primary-blue); }
+
+footer { background: var(--primary-blue); color: var(--white); text-align: center; padding: 2.5rem 1rem; }
 footer p { margin: 0.5rem 0; }
-.copyright { margin-top: 1rem; font-size: 0.8rem; opacity: 0.8; }
+footer a:hover { text-decoration: underline; color: #ffcc00; }
+footer i { margin-right: 8px; }
+.copyright { margin-top: 1.5rem; font-size: 0.8rem; opacity: 0.8; }
 
 /* Responsive */
 @media (max-width: 768px) {
-    .nav-links { display: none; } /* Simplified for mobile */
-    .hero h1 { font-size: 2rem; }
+    .nav-links { display: none; }
+    .hero h1 { font-size: 1.8rem; }
+    .hero h2 { font-size: 1rem; }
+    .profile-pic { width: 80px; height: 80px; }
+    .skills-grid { grid-template-columns: 1fr; }
 }
