@@ -69,18 +69,17 @@ nav {
     text-align: center;
 }
 
-/* UPDATED: Slightly bigger picture */
+/* FORCE UPDATE: Bigger picture - 130px */
 .profile-pic {
-    width: 130px;
-    height: 130px;
+    width: 130px !important;
+    height: 130px !important;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid var(--gold);
-    margin-bottom: 1rem;
+    margin: 0 auto 1rem auto !important;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
+
 .hero h1 { 
     font-size: 2.2rem; 
     margin-bottom: 0.3rem;
@@ -282,10 +281,10 @@ footer i {
         font-size: 1rem; 
     }
     
-    /* UPDATED: Mobile picture size */
+    /* Mobile picture size */
     .profile-pic { 
-        width: 100px; 
-        height: 100px; 
+        width: 100px !important; 
+        height: 100px !important; 
     }
     
     h2 {
